@@ -1,0 +1,51 @@
+#
+# STACK BRAINSTORM 
+#
+
+Choosing a framework:
+    - Ideas/Inspiration:
+        - Lichess: https://www.youtube.com/watch?v=7VSVfQcaxFY
+            Scala, Play Framework, MongoDB, SpabDOM (Mithril.js), Flutter (for mobile), Rust (for some services) 
+            Chosen for simplicity, statically typed, lower tech debt since lichess made by single dev
+            Scala seems great but lots of warning online related to JVM
+        - Pieter Levels (digital Nomad): built a bunch of website with a old-school stack
+            PHP, Jquery, quick Database
+            Points towards LAMP (Linux/Apache/MySQL/PHP) 
+            Would need PHP framwork, potentially Laravel and Linux Server for VPS (Ubuntu)
+            Pros: Robust & historical & Well documented with proven track record
+            Cons: Doesnt leverage modern tech, esp frontend, lots of jquery items
+                can be completed with Vanilla.JS at least, if not a framework or Alpine
+        
+    - Driving Factors in choosing stack
+        1. Long term stability -> I am solo developer, want to minimize future maintenance and tech debt
+        2. Strongly type -> make things more robust, efficient, and scalable
+        3. Low cost to run -> dont' want serverless, want the learning experience of setting up
+            my own hosting environment, but don't want that much of a cost.
+        4. Simple -> Don't need to explore or have features that I won't use.
+        5. Minimize work in web & mobile integration
+
+    Notes:
+        - dont be swayed by what I already know, find best tool
+        - Avoid React & Next.js frontend, high update churn, future maintenance, and dependency hell
+            - This rules out react native for web + mobiler
+         
+Results:
+    Frontend: 
+        Flutter/Dart:
+            - Web & Mobile, strongly typed, self-contained
+            - Flutter web slightly heavier but that's okay, want to incentivize people to mobile
+            - Need to learn lol
+    Backend:
+        GO:
+            - Strongly typed, small binary & memory, 
+            - Need to learn lol
+    Database:
+        PostgresSQL:
+            - Elo Tracker app is very relational heavy with users, groups, matches
+
+    Additional infrastructure to look into:
+        - sqlc: https://github.com/sqlc-dev/sqlc
+        - Chi router: https://github.com/go-chi/chi
+        - go http router: https://github.com/julienschmidt/httprouter
+        - fly.io & caddy:   
+    

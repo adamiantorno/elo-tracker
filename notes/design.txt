@@ -1,0 +1,35 @@
+#
+# OVERVIEW
+#
+
+Project: ELO Tracker
+Name: Relo?
+Description: Platform that lets users create groups/organizations for an activity and compete with each other. 
+    Tracking player elo, match history, and rankings. Example: Groups of friends who play ping pong together 
+    can track their mathces and establish a ranking between them. 
+
+Needs: Rankings in competition only exists in formal sports leagues, and competition metrics,
+    such as elo, only exists in specific solo sports, chess, or online gaming. However friend groups 
+    and informal organizations are competing in various activities - such as table tennis, super smash bros,
+    JiuJitsu - and competitors argue about who is the best. While the light-hearted arguing
+    is a fun aspect of the competition, a way for these friend groups to keep track of their competition would 
+    keep them motivated to keep competing against each other. A give them a chance to grow their
+    competition outside the friend group and incorporate others.
+
+MVP: 
+    Requirements:
+        1. users can create activity groups and invite other users to join
+        2. Activity groups track matches between users for activity
+        3. Activity groups create an elo for each user participating within the group 
+
+    Non-Functional Requirements:
+        - Mobile and Website
+            Create website first that you can test at work
+        - Secure
+        - Internal monitoring and tracking
+
+
+Future Features & Ideas:
+    TODO
+
+
